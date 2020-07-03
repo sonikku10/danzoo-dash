@@ -123,11 +123,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Social Media Section */
 .social-link{
-  margin: 50px;
+  margin: auto;
 }
 
 .social-icon {
   width: 72px;
+  padding: 20px 0;
 
 }
 #footer {
