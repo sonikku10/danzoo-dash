@@ -1,0 +1,135 @@
+body {
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  color: #40514E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Asap', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+/* Headings */
+
+
+/* Containers */
+.container-fluid{
+  padding: 3% 15%;
+
+}
+
+.purple-section {
+  background-color: #25003e;
+  color: #FFFFFF;
+}
+
+.white-section {
+  background-color: #FFFFFF;
+}
+
+.orange-section {
+  background-color: #ffb544;
+  }
+
+
+
+/* NavBar Section */
+.navbar{
+  padding: 0 1.5rem 1rem;
+  position: relative;
+
+}
+
+.navbar-brand{
+  text-align: left;
+}
+.logo {
+  width: 10%;
+}
+
+.nav-item{
+  padding: 0 20px;
+
+}
+
+
+/* Title Section */
+.title-section{
+  height: 35rem;
+}
+
+ .title-image{
+   z-index: -1
+ }
+
+.title-image{
+  width: 100%;
+  position: relative;
+  bottom: 200px;
+}
+
+@media (max-width:1325px) {
+  .title-image{
+    top:0;
+
+
+  }
+
+}
+
+/* Mission Sesction */
+.gao-gao-kyun {
+  font-family: "Noto Sans JP";
+  font-size: 4rem;
+}
+
+/* Member Section */
+.member-image{
+  border-radius: 100%;
+  width: 250px;
+}
+
+
+.member-name {
+  font-weight: 900;
+}
+
+.member-call .member-text {
+  text-align: left;
+}
+
+.member-call {
+  font-style: italic;
+}
+
+@media (max-width: 995px){
+  .member-call .member-text {
+    text-align: center;
+  }
+}
+
+/* Charities Section */
+.charities-logo {
+  width: 300px;
+  margin: 20px 50px;
+  padding: 0 20px;
+}
+
+#wwf-logo {
+  width: 200px;
+}
+
+/* Social Media Section */
+.social-link{
+  margin: 50px;
+}
+
+.social-icon {
+  width: 72px;
+
+}
+#footer {
+  padding: 5% 0 0;
+}
